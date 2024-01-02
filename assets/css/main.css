@@ -631,6 +631,10 @@ div.demo img {
   line-height: inherit;
   text-transform: capitalize;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 
 .class {
   stroke-dasharray: 189px, 191px;
