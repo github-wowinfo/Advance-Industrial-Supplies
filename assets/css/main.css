@@ -2665,6 +2665,7 @@ table, th, td {
   transition: 0.3s;
   display: inline-block;
   border-radius: 50%;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .tpoffcanvas__social .social-icon a {
@@ -8258,11 +8259,11 @@ body .ui-tooltip {
   color: var(--tp-common-white);
 }
 .tp-footer-style-4 .tp-footer-widge-style-2 .tp-footer-contact ul li {
-  padding-left: 80px;
+  padding-left: 50px;
   position: relative;
 }
 .tp-footer-style-4 .tp-footer-widge-style-2 .tp-footer-contact ul li:nth-child(2) {
-  padding-left: 70px;
+  padding-left: 50px;
 }
 .tp-footer-style-4 .tp-footer-widge-style-2 .tp-footer-contact ul li:nth-child(3) {
   padding-left: 50px;
@@ -9025,10 +9026,22 @@ body .ui-tooltip {
   .tp-slider-2-content .tp-hero-2-funfact span {
     font-size: 13px;
   }
+ 
+ 
+}
+
+@media only screen and (min-width: 345px) and (max-width: 767px) {
+ /* .swiper-wrapper .swiper-slide .tp-slider-2-thumb{
+    width: 95% !important;
+  } */
+  .swiper-slide .tp-slider-2-thumb img{
+    width: 65% !important;
+  }
 }
 .tp-slider-2-content p {
   margin-right: 120px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-slider-2-content p {
     margin-right: 70px;
@@ -12187,7 +12200,10 @@ body .ui-tooltip {
   opacity: 0.05;
   text-transform: capitalize;
 }
-
+.tp-about-4-area{
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
 .tp-hover-distort-wrapper {
   position: relative;
 }
@@ -12206,6 +12222,10 @@ body .ui-tooltip {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hover-distort-img {
     width: 100%;
+  }
+  .tp-about-4-area{
+    padding-top: 80px;
+    padding-bottom: 70px;
   }
 }
 .tp-hover-distort-img.back {
@@ -12356,11 +12376,21 @@ body .ui-tooltip {
     margin-top: 0;
     margin-bottom: 50px;
   }
+  .tp-header-logo a img{
+    width: 60% !important ; 
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .tp-funfact-2-item-box {
     margin-bottom: 50px;
+  }
+  .tp-about-4-area{
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .tp-header-logo a img{
+    width: 60% !important ; 
   }
 }
 .tp-funfact-2-item-box ul li {
