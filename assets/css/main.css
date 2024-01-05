@@ -10386,7 +10386,14 @@ body .ui-tooltip {
     font-size: 14px;
   }
 }
-
+.card{
+  /* border-radius: 1rem; */
+  border: .5px solid gainsboro;
+}
+.card:hover{
+  transition: all linear .5s;
+  box-shadow: 1px 2px 8px 2px gainsboro;
+}
 .tp-project-4-item {
   margin-bottom: 35px;
   overflow: hidden;
@@ -10455,12 +10462,14 @@ body .ui-tooltip {
   left: 0px;
   padding: 40px;
   margin: 25px;
+  margin-left: 40px;
   padding-bottom: 45px;
   display: inline-block;
   background-color: var(--tp-common-black);
   transform: perspective(400px) rotateX(-90deg);
   transform-origin: center;
   transition: all 0.5s ease-in-out;
+  text-align: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-project-4-content {
